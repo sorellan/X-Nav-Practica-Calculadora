@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Calculadora">
+    <meta name="author" content="Samuel Salcedo Orellana">
+
+    <title>CalculadoraSPA - Samuel Salcedo Orellana</title>
+   
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<!-- Personal -->
+	<link rel="stylesheet" type="text/css" href="css/calculator.css">
+
+</head>
+<body>
+	<div id="sandbox">
+	  <div id="components">
+	  	<p id="name"><b>Calculator-SPA</b></p>
+		<input id="solution" type="text" />
+		<div id="memory" class="btn-toolbar" role="toolbar" >
+			<button id="setmemory" class="btn-group mem" role="group" >M+</button>
+  			<button id="getmemory" class="btn-group mem" role="group" >MR</button>
+  		</div>
+		<div class="btn-toolbar" role="toolbar" >
+  			<div class="btn-group" role="group" >
+  				<button id="seven" type="button" class="btn btn-default num">7</button>
+  				<button id="eight" type="button" class="btn btn-default num">8</button>
+  				<button id="nine" type="button" class="btn btn-default num">9</button>
+  			</div>
+  			<button id="delete" class="btn-group func" role="group" >DEL</button>
+  			<button id="allclear" class="btn-group func" role="group" >AC</button>
+		</div>
+		<div class="btn-toolbar" role="toolbar" >
+  			<div class="btn-group" role="group" >
+  				<button id="four" type="button" class="btn btn-default num">4</button>
+  				<button id="five" type="button" class="btn btn-default num">5</button>
+  				<button id="six" type="button" class="btn btn-default num">6</button>
+  			</div>
+  			<button id="multiply" class="btn-group op" role="group" >*</button>
+  			<button id="divide" class="btn-group op" role="group" >/</button>
+		</div>
+		<div class="btn-toolbar" role="toolbar" >
+  			<div class="btn-group" role="group" >
+  				<button id="one" type="button" class="btn btn-default num">1</button>
+  				<button id="two" type="button" class="btn btn-default num">2</button>
+  				<button id="three" type="button" class="btn btn-default num">3</button>
+  			</div>
+  			<button id="add" class="btn-group op" role="group" >+</button>
+  			<button id="deduct" class="btn-group op" role="group" >-</button>
+		</div>
+		<div class="btn-toolbar" role="toolbar" >
+  			<div class="btn-group" role="group" >
+  				<button id="zero" type="button" class="btn btn-default num">0</button>
+  				<button id="point" type="button" class="btn btn-default op">.</button>
+  				<button id="equal" type="button" class="btn btn-default func">=</button>
+  			</div>
+  			<button id="open_paren" class="btn-group op" role="group" >(</button>
+  			<button id="close_paren" class="btn-group op" role="group" >)</button>
+		</div>
+	  </div>
+	</div>
+</body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<!-- Personal -->
+<script src="js/calculator.js"></script>
+</html>

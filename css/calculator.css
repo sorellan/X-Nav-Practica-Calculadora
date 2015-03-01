@@ -1,0 +1,54 @@
+#sandbox {
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	width: 238px;
+	height: 330px;
+	background-color: #454545;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#components {
+	margin-left: 10px;
+}
+
+#name {
+	text-align: right;
+	color: #cd5c5c;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+#solution {
+	text-align: right;
+	margin-bottom: 15px;
+	width: 217px;
+	height: 40px;
+	font-size: 20px;
+	background-color: #bac274;
+}
+
+#memory {
+	padding-left: 70px;
+}
+
+#memory .mem {
+	background-color: #8d8d00;
+	color: white;
+}
+
+.btn-group {
+	margin: 7px 5px;
+}
+
+.btn-default, .func, .op {
+	width: 40px;
+	height: 35px;
+	background-color: #6b6b6b;
+	color: white;
+}
+
+#delete, #allclear {
+	background-color: #cd5c5c;
+}
